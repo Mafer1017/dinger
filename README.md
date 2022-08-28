@@ -32,6 +32,7 @@ _This project allows users to track inventory for a local coffee shop._
 * 1:00: finish first draft of project outline
 ### Saturday 08/27/22
 * 9:00 watch youtube video building a random number game in JS. https://youtu.be/2cQUkYU8AmI
+* 9:45 watch another video building a random number game in JS for any differences." https://youtu.be/j_ax_yT7KW0
 
 ## Known Bugs
 
