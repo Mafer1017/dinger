@@ -30,7 +30,8 @@ _This project allows users to track inventory for a local coffee shop._
 * 10:20: Finish tutorial for building tic-tac-toe in React because for game design ideas.
 * 11:00: Reviewed Pig Dice lesson and repo to refresh memory on random number generation
 * 1:00: finish first draft of project outline
-### Friday 08/26/22
+### Saturday 08/27/22
+* 9:00 watch youtube video building a random number game in JS. https://youtu.be/2cQUkYU8AmI
 
 ## Known Bugs
 
