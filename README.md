@@ -33,6 +33,7 @@ _This project allows users to track inventory for a local coffee shop._
 ### Saturday 08/27/22
 * 9:00 watch youtube video building a random number game in JS. https://youtu.be/2cQUkYU8AmI
 * 9:45 watch another video building a random number game in JS for any differences." https://youtu.be/j_ax_yT7KW0
+* 11:00 Review React Fundamentals Epicodus material
 
 ## Known Bugs
 
