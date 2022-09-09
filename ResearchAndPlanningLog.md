@@ -9,3 +9,5 @@
 * 9:00 watch youtube video building a random number game in JS. https://youtu.be/2cQUkYU8AmI
 * 9:45 watch another video building a random number game in JS for any differences." https://youtu.be/j_ax_yT7KW0
 * 11:00 Review React Fundamentals Epicodus material
+### Friday 9/9/2022
+* 9:00 begin building framework
