@@ -12,3 +12,4 @@
 ### Friday 9/9/2022
 * 9:00 begin building framework
 * 11:00 Review "Guess the number with React" page. https://www.geeksforgeeks.org/guess-the-number-with-react/
+* 11:10 Back to building
