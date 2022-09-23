@@ -14,3 +14,6 @@
 * 11:00 Review "Guess the number with React" page. https://www.geeksforgeeks.org/guess-the-number-with-react/
 * 11:10 Back to building
 * 12:00 stop for day.
+
+### Friday 9/23/2022
+* 9:00 watch React JS overview video to refresh memory. https://youtu.be/b9eMGE7QtTk
