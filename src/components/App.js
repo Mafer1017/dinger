@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "./Header"
-import GameControl from "./CoffeeControl";
+import Header from "./Header";
 import styled from 'styled-components';
+import Game from './Game';
 
 const DingerHeader = styled.h1`
   font-size: 24px;
@@ -19,7 +19,7 @@ function App() {
     <StyledWrapper>
       <React.Fragment>
         <Header />
-        <GameControl />
+        <Game />
       </React.Fragment>
     </StyledWrapper>
   );
