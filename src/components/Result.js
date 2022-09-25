@@ -4,13 +4,16 @@ const Result = ({ term , secretNum }) => {
   let result;
   if(term){
     if(secretNum > term){
-      result = secretNum + ' Pitcher number is higher'
+      result = "Pitcher number: " + secretNum
+      + " Swing number: " + term;
     }
     else if(secretNum < term){
-      result = secretNum + ' Pitcher number is lower'
+      result = secretNum + "Pitcher number: " + secretNum
+      + " Swing number: " + term;
     }
     else{
-      result = secretNum + " That's a dinger!"
+      result = secretNum + "Pitcher number: " + secretNum
+      + " Swing number: " + term;
     }
   }
   return <h3>{result}</h3>

@@ -7,14 +7,18 @@ const DingerHeader = styled.h1`
   font-size: 24px;
   text-align: center;
   color: white;
-  background-color: green;
+  background-color: yellow;
   `;
 
 const StyledWrapper = styled.section`
-  background-color: yellow;
+font-size: 24px;
+text-align: center;
+color: white;
+background-color: green;
 `;
 
 function App() {
+  
   return (
     <StyledWrapper>
       <React.Fragment>

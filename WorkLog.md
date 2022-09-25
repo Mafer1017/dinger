@@ -18,3 +18,6 @@
 ### Friday 9/23/2022
 * 9:00 watch React JS overview video to refresh memory. https://youtu.be/b9eMGE7QtTk
 * 11:00 reviewing React Fundamentals section on learnhowtoprogram.com
+
+### Sunday 9/25/2022
+* Create basic number guessing game functionality
