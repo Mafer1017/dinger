@@ -5,11 +5,11 @@ const Result = ({ term , secretNum }) => {
   if(term){
     if(secretNum > term){
       result = "Pitcher number: " + secretNum
-      + " Swing number: " + term;
+      + " Swing number: " + term + " Difference: " + (secretNum - term);
     }
     else if(secretNum < term){
       result = secretNum + "Pitcher number: " + secretNum
-      + " Swing number: " + term;
+      + " Swing number: " + term + " Difference: " + (secretNum - term);
     }
     else{
       result = secretNum + "Pitcher number: " + secretNum

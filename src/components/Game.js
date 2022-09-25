@@ -25,7 +25,7 @@ class Game extends Component{
       <div>
         <div>
           <label htmlFor='term'>
-            Guess Number between 1 to 100
+            Guess a number between 1 to 100
           </label>
         </div>
         <input

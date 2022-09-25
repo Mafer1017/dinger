@@ -2,13 +2,7 @@ import React from "react";
 import Header from "./Header";
 import styled from 'styled-components';
 import Game from './Game';
-
-const DingerHeader = styled.h1`
-  font-size: 24px;
-  text-align: center;
-  color: white;
-  background-color: yellow;
-  `;
+import backgroundImage from ".././img/background.png";
 
 const StyledWrapper = styled.section`
 font-size: 24px;
@@ -23,6 +17,8 @@ function App() {
     <StyledWrapper>
       <React.Fragment>
         <Header />
+      <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', width: '100vw', height: '100vh' }}>
+      </div>
         <Game />
       </React.Fragment>
     </StyledWrapper>
