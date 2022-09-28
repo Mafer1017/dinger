@@ -1,19 +1,19 @@
 import React from 'react'
  
-const Result = ({ term , secretNum }) => {
+const Result = ({ swing , pitchNum }) => {
   let result;
-  if(term){
-    if(secretNum > term){
-      result = "Pitcher number: " + secretNum
-      + " Swing number: " + term + " Difference: " + (secretNum - term);
+  if(swing){
+    if(pitchNum > swing){
+      result = "Pitcher number: " + pitchNum
+      + " Swing number: " + swing + " Difference: " + (pitchNum - swing);
     }
-    else if(secretNum < term){
-      result = secretNum + "Pitcher number: " + secretNum
-      + " Swing number: " + term + " Difference: " + (secretNum - term);
+    else if(pitchNum < swing){
+      result = "Pitcher number: " + pitchNum
+      + " Swing number: " + swing + " Difference: " + Math.abs(pitchNum - swing);
     }
     else{
-      result = secretNum + "Pitcher number: " + secretNum
-      + " Swing number: " + term;
+      result = pitchNum + "Pitcher number: " + pitchNum
+      + " Swing number: " + swing + " Difference: " + (pitchNum - swing);
     }
   }
   return <h3>{result}</h3>

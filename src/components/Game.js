@@ -4,12 +4,12 @@ import Result from './Result';
 class Game extends Component{
  
   static defaultProps =  {
-    secret : Math.floor(Math.random() * 100) + 1
+    pitch : Math.floor(Math.random() * 100) + 1
   }
  
   constructor(props){
     super(props)
-    this.state = { term : '' }
+    this.state = { swing : '' }
  
     this.handleChange = this.handleChange.bind(this)
   }
@@ -24,20 +24,20 @@ class Game extends Component{
     return (
       <div>
         <div>
-          <label htmlFor='term'>
+          <label htmlFor='swing'>
             Guess a number between 1 to 100
           </label>
         </div>
         <input
-          id='term'
+          id='swing'
           type='text'
-          name='term'
-          value={this.state.term}
+          name='swing'
+          value={this.state.swing}
           onChange={this.handleChange}
         />
    
-        <Result term={this.state.term}
-            secretNum={this.props.secret} />
+        <Result swing={this.state.swing}
+            pitchNum={this.props.pitch} />
       </div>
     )
   }
