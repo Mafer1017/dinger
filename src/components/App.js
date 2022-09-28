@@ -17,9 +17,9 @@ function App() {
     <StyledWrapper>
       <React.Fragment>
         <Header />
+        <Game />
       <div style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', width: '100vw', height: '100vh' }}>
       </div>
-        <Game />
       </React.Fragment>
     </StyledWrapper>
   );
