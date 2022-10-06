@@ -4,8 +4,14 @@ const Result = ({ swing , pitchNum }) => {
   let result;
   let result2;
   let result3;
+  let outcome;
   if(swing){
     if(pitchNum > swing){
+      if((pitchNum - swing) <= 5){
+        outcome = "That's a dinger!";
+      } else {
+        outcome = "You're out!";
+      };
       result = "Pitcher number: " + pitchNum;
       result2 = " Swing number: " + swing;
       result3 = " Difference: " + (pitchNum - swing);
@@ -19,9 +25,10 @@ const Result = ({ swing , pitchNum }) => {
       result = "Pitcher number: " + pitchNum;
       result2 = " Swing number: " + swing;
       result3 = " Difference: " + (pitchNum - swing);
+      outcome = "That's A Goner!"
     }
   }
-  return <h3>{result}<br />{result2}<br />{result3}</h3>
+  return <h3>{result}<br />{result2}<br />{result3}<br />{outcome}</h3>
 }
 
 export default Result

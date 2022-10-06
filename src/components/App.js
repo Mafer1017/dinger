@@ -8,7 +8,7 @@ import backgroundImage from ".././img/background.png";
 
 function App() {
   const StyledWrapper = styled.section`
-  font-size: 24px;
+  font-size: 42px;
   font-family: sans-serif;
   text-align: center;
   color: white;
@@ -21,9 +21,10 @@ function App() {
     color: white;
     background-color: green;
     display: inline-block;
-    float: right;
+    float: left;
     border-style: ridge;
     border-color: black;
+    margin-left: 300px
     
     `;
   
@@ -33,8 +34,8 @@ function App() {
       <StyledWrapper>
         <Header />
       </StyledWrapper>
-        <GameWrapper>
-      <Game />
+      <GameWrapper>
+        <Game />
       </GameWrapper>
       <Boxscore />
       </div>

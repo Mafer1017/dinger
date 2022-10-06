@@ -6,16 +6,16 @@ class Boxscore extends Component{
   render() {
 
     const StyledWrapper = styled.section`
-font-size: 24px;
-text-align: center;
-color: white;
-background-color: teal;
-display: inline-block;
-float: left;
-border-style: ridge;
-border-color: black;
-
-`;
+      font-size: 24px;
+      text-align: center;
+      color: white;
+      background-color: teal;
+      display: inline-block;
+      float: right;
+      border-style: ridge;
+      border-color: black;
+      border-right: 300px;
+    `;
     return (
       <StyledWrapper>
       <div className="game">
