@@ -31,8 +31,11 @@ class Game extends Component{
         </div>
         <input
           id='swing'
-          type='text'
+          type='number'
+          placeholder='Swing Away!'
           name='swing'
+          min='1'
+          max='100'
           value={this.state.swing}
           onChange={this.handleChange}
           />

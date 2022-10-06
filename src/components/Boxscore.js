@@ -14,6 +14,7 @@ class Boxscore extends Component{
       float: right;
       border-style: ridge;
       border-color: black;
+      padding: 10px;
       margin-right: 300px;
     `;
     return (

@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css'
 import Header from "./Header";
 import styled from 'styled-components';
 import Game from './Game';
@@ -25,6 +26,7 @@ function App() {
     float: left;
     border-style: ridge;
     border-color: black;
+    padding: 10px;
     margin-left: 300px
     
     `;
