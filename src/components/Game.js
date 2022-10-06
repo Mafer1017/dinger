@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Result from './Result';
 
+
 class Game extends Component{
  
   static defaultProps =  {
@@ -34,10 +35,10 @@ class Game extends Component{
           name='swing'
           value={this.state.swing}
           onChange={this.handleChange}
-        />
-   
+          />
+
         <Result swing={this.state.swing}
-            pitchNum={this.props.pitch} />
+          pitchNum={this.props.pitch} />
       </div>
     )
   }

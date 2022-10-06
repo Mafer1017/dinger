@@ -1,5 +1,5 @@
-import React from 'react'
- 
+import React from 'react';
+  
 const Result = ({ swing , pitchNum }) => {
   let result;
   let result2;
