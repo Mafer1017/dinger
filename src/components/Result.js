@@ -9,6 +9,12 @@ const Result = ({ swing , pitchNum }) => {
     if(pitchNum > swing){
       if((pitchNum - swing) <= 5){
         outcome = "That's a dinger!";
+      } else if ((pitchNum - swing) <= 10){
+        outcome = "Wow great hit! That's a triple!";
+      } else if ((pitchNum - swing) <= 15){
+        outcome = "And it's off the wall for a double!";
+      } else if ((pitchNum - swing) <= 20){
+        outcome = "Small ball baby! Way to leg out a single";
       } else {
         outcome = "You're out!";
       };
@@ -20,6 +26,17 @@ const Result = ({ swing , pitchNum }) => {
       result = "Pitcher number: " + pitchNum;
       result2 = " Swing number: " + swing;
       result3 = " Difference: " + Math.abs(pitchNum - swing);
+      if((swing - pitchNum) <= 5){
+        outcome = "That's a dinger!";
+      } else if ((swing - pitchNum) <= 10){
+        outcome = "Wow great hit! That's a triple!";
+      } else if ((swing - pitchNum) <= 15){
+        outcome = "And it's off the wall for a double!";
+      } else if ((swing - pitchNum) <= 20){
+        outcome = "Small ball baby! Way to leg out a single";
+      } else {
+        outcome = "You're out!";
+      };
     }
     else{
       result = "Pitcher number: " + pitchNum;
