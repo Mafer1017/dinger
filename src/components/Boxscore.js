@@ -14,7 +14,7 @@ class Boxscore extends Component{
       float: right;
       border-style: ridge;
       border-color: black;
-      border-right: 300px;
+      margin-right: 300px;
     `;
     return (
       <StyledWrapper>

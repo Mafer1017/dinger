@@ -13,6 +13,7 @@ function App() {
   text-align: center;
   color: white;
   background-color: green;
+  margin-top: -50px;
   `;
 
   const GameWrapper = styled.section`
