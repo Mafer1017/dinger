@@ -26,7 +26,7 @@ _This project allows users to play a number guessing baseball RPG._
 
 ## Known Bugs
 
-_There are no known bugs_
+* Currently, the 9th inning boxscore button returns NaaN. Will fix in future.
 
 ## License
 
