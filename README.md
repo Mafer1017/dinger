@@ -1,10 +1,10 @@
-# Coffee Shop Tracker
+# Dinger
 
 ##### By: Marcus Ferreira
 
 ## Description
 
-_This project allows users to track inventory for a local coffee shop._
+_This project allows users to play a number guessing baseball RPG._
 
 ## Technologies Used
 
