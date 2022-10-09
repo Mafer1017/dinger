@@ -22,6 +22,7 @@ function App() {
     text-align: center;
     color: white;
     background-color: green;
+    text-decoration: underline;
     display: inline-block;
     float: left;
     border-style: ridge;
