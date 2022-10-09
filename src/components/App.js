@@ -25,7 +25,7 @@ function App() {
     text-decoration: underline;
     display: inline-block;
     float: left;
-    border-style: ridge;
+    border-style: groove;
     border-color: black;
     padding: 10px;
     margin-left: 300px

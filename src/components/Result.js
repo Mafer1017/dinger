@@ -42,7 +42,7 @@ const Result = ({ swing , pitchNum }) => {
       result = "Pitcher number: " + pitchNum;
       result2 = " Swing number: " + swing;
       result3 = " Difference: " + (pitchNum - swing);
-      outcome = "That's A Goner!"
+      outcome = "⚾B⚾O⚾O⚾O⚾M⚾"
     }
   }
   return <h3>{result}<br />{result2}<br />{result3}<br />{outcome}</h3>
