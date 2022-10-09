@@ -9,7 +9,7 @@ class Boxscore extends Component{
       font-size: 24px;
       text-align: center;
       color: white;
-      background-color: teal;
+      background-color: green;
       display: inline-block;
       float: right;
       border-style: ridge;
@@ -24,8 +24,6 @@ class Boxscore extends Component{
           <Board />
         </div>
         <div className="game-info">
-          <div>{/* status */}</div>
-          <ol>{/* TODO */}</ol>
         </div>
       </div>
       </StyledWrapper>
